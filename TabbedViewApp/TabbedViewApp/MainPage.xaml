@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage 
+    xmlns:local="clr-namespace:TabbedViewApp"
+    xmlns="http://xamarin.com/schemas/2014/forms" NavigationPage.HasNavigationBar="True" Title="My App"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="TabbedViewApp.MainPage">
+
+    <local:Page1 Title="Page1Details" Icon="icons8_page_1.png" />
+    
+   
+    <ContentPage Title="Page1" Icon="icons8_page_1.png">
+
+        <Button Text="ShowContetualActionBar" Clicked="Button_Clicked" />
+
+    </ContentPage>
+
+    <ContentPage Title="Page2" Icon="icons8_page_2.png">
+
+        <Label Text="Page 2" HorizontalOptions="Center" VerticalOptions="Center" />
+
+    </ContentPage>
+
+</TabbedPage>
